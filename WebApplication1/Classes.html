@@ -2,163 +2,459 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Home Page for Small Business" />
+    <meta name="description" content="Classes Page for Small Business" />
     <meta name="keywords" content="small business, education, coding" />
     <meta name="author" content="Justin Peacock" />
-    <title>Project Peacock</title>
+    <title>Poly Edu | Classes</title>
+    <link href="images/android-icon-36x36.png" rel="icon" />
     <link rel="stylesheet" href="CSS/Styling-Home.css" />
-
+    <script src="https://kit.fontawesome.com/b32c6b8a1f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Raleway:wght@100&family=Sedgwick+Ave&family=Space+Mono&display=swap" rel="stylesheet">
 
 
 
 </head>
 
 <body>
-    <p>
-        <a class="facebook" href="https://www.facebook.com/" target="_blank">Facebook</a>
-        <a class="twitter" href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
-
-        <a class="instagram" href="https://www.instagram.com/" target="_blank">Instagram</a>
-    </p>
-
-
-
     <header>
-        <div>
+        <p class="socialsHeader">
+            <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="twitter" href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
 
-            <h1 class="page1">Project Peacock</h1>
-            <h2 class="page2"> Company Slogan Here</h2>
+            <a class="instagram" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </p>
 
+        <div class="headerHome">
+
+            <div>
+                <a href="index.html"><img class="imgHome" src="images/android-icon-36x36.png" alt="Polygons" width="150" height="100" /></a>
+                
+            </div>
+
+            <div class="polyEdu">
+                <h1 class=" page page1">Poly Edu</h1>
+                <h2 class="page page2"> "Polygons are really cool!"- Sir Michael Caine, Poly Edu Alumn (2017)</h2>
+            </div>
         </div>
-
-        <nav>
-
-            <ul>
-                <li><a href="index.html">Home</a></li>
-
-                <li><a href="Classes.html">Classes</a></li>
-
-                <li><a href="Team.html">Team</a></li>
-                <li><a href="Contact.html">Contact Us</a></li>
-            </ul>
-
-
-        </nav>
 
     </header>
 
+    <nav>
+
+        <ul class="navContainer">
+            <li><a class="navBar" href="index.html">Home</a></li>
+
+            <li><a class="navBar classes" href="Classes.html">Classes</a></li>
+
+            <li><a class="navBar" href="Team.html">Team</a></li>
+            <li><a class="navBar" href="Contact.html">Contact Us</a></li>
+        </ul>
 
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="description" content="Home Page for Small Business" />
-        <meta name="keywords" content="small business, education, coding" />
-        <meta name="author" content="Justin Peacock" />
-        <title>Project Peacock</title>
-        <link rel="stylesheet" href="CSS/Styling-Home.css" />
+    </nav>
+
+    <main>
+        <h1 class="classesHeader">Class Subjects</h1>
+        <section class="classSubjects1">
+            <div class="subject">
+                <img class="classesImage" src="images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg" width="235" height="180" />
+                <h2 class="topicTitle">Geometry</h2>
+                <p class="description">
+                    Introduction courses for Geometry. Covers the basics of geometry and how to apply geometry to everyday life as well as how to apply the knowledge to other math subjects.
+                </p>
+            </div>
+            <div class="subject">
+                <img class="classesImage" src="images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg" width="235" height="180" />
+                <h2 class="topicTitle">Shapes and Polygons</h2>
+                <p class="description">
+                    Introduction courses to shapes and polygons. Learn to distinguish the differences between what a shape is and what a polygon is. What shape is a polygon?
+                </p>
+            </div>
+            <div class="subject">
+                <img class="classesImage" src="images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg" width="235" height="180" />
+                <h2 class="topicTitle">Trigonometry</h2>
+                <p class="description">
+                    Introduction courses for Trigonometry. Apply functions to geometric problems.
+                </p>
+            </div>
+        </section>
+
+        <section class="classSubjects1">
+            <div class="subject">
+                <img class="classesImage" src="images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg" width="235" height="180" />
+                <h2 class="topicTitle">Advanced Geometry</h2>
+                <p class="description">
+                    Advanced geometry class for those who excelled in Introduction to Geometry.
+                </p>
+            </div>
+            <div class="subject">
+                <img class="classesImage" src="images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg" width="235" height="180" />
+                <h2 class="topicTitle">Advanced Trigonometry</h2>
+                <p class="description">
+                    Advanced trigonometry class for those who passed and excelled in Introduction to Geometry and Introduction to Trigonometry.
+                </p>
+            </div>
+            <div class="subject">
+                <img class="classesImage" src="images/ash-edmonds-0aWZdK8nK2I-unsplash.jpg" width="235" height="180" />
+                <h2 class="topicTitle">Algebra</h2>
+                <p class="description">
+                    Learn basic algebraic equations and formulas.
+                </p>
+            </div>
+        </section>
+
+
+        <h1 class="classesDiv">Geometry | Class List</h1>
+
+        <table class="alignTable">
+            <thead>
+
+                <tr class="tableBorder">
+                    <th class="tableBorder">Room Nbr</th>
+                    <th>Class Name</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Room 5</td>
+                    <td>Intro Geometry</td>
+                    <td>Kevin Fry</td>
+                    <td>Mon-Fri 11-Noon</td>
+                </tr>
+
+                <tr>
+                    <td>Room 5</td>
+                    <td>Geometry 2</td>
+                    <td>
+                        Kevin Fry
+                    </td>
+                    <td>Tues, Wed, Thurs 1-2pm</td>
+                </tr>
+
+                <tr>
+                    <td>Room 5</td>
+                    <td>Advanced Geometry</td>
+                    <td>
+                        Kevin Fry
+                    </td>
+                    <td>Mon, Fri 9-10am</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; Poly Edu</td>
+                    <!-- The cell below merges two rows -->
+                    <td rowspan="2" style="text-align: right;">
+                        <span class="bold italic">
+                            All Rights Reserved
+                        </span>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+
+        <h1 class="classesDiv">Shapes and Polygons | Class List</h1>
+
+        <table class="alignTable">
+            <thead>
+
+                <tr class="tableBorder">
+                    <th class="tableBorder">Room Nbr</th>
+                    <th>Class Name</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Room 7</td>
+                    <td>Intro Shapes and Polygons</td>
+                    <td>James Foster</td>
+                    <td>Tues, Thurs 5-6pm</td>
+                </tr>
+
+                <tr>
+                    <td>Room 7</td>
+                    <td>Shapes and Polygons 2 </td>
+                    <td>
+                        James Foster
+                    </td>
+                    <td>Fri 2pm-5pm</td>
+                </tr>
+
+                <tr>
+                    <td>Room 7</td>
+                    <td>Advanced Polygons</td>
+                    <td>
+                        James Foster
+                    </td>
+                    <td>Tues 7pm</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; Poly Edu</td>
+                    <!-- The cell below merges two rows -->
+                    <td rowspan="2" style="text-align: right;">
+                        <span class="bold italic">
+                            All Rights Reserved
+                        </span>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+
+        <h1 class="classesDiv">[Subject] Class List</h1>
+
+        <table class="alignTable">
+            <thead>
+
+                <tr class="tableBorder">
+                    <th class="tableBorder">Room Nbr</th>
+                    <th>Class Name</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Room 1</td>
+                    <td>Class Name</td>
+                    <td>Instructor 1</td>
+                    <td>Time of class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 2</td>
+                    <td>Class 2 </td>
+                    <td>
+                        Instructor 2
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 3</td>
+                    <td>Class 3</td>
+                    <td>
+                        Instructor 3
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; Poly Edu</td>
+                    <!-- The cell below merges two rows -->
+                    <td rowspan="2" style="text-align: right;">
+                        <span class="bold italic">
+                            All Rights Reserved
+                        </span>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+
+        <h1 class="classesDiv">[Subject] Class List</h1>
+
+        <table class="alignTable">
+            <thead>
+
+                <tr class="tableBorder">
+                    <th class="tableBorder">Room Nbr</th>
+                    <th>Class Name</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Room 1</td>
+                    <td>Class Name</td>
+                    <td>Instructor 1</td>
+                    <td>Time of class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 2</td>
+                    <td>Class 2 </td>
+                    <td>
+                        Instructor 2
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 3</td>
+                    <td>Class 3</td>
+                    <td>
+                        Instructor 3
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; Poly Edu</td>
+                    <!-- The cell below merges two rows -->
+                    <td rowspan="2" style="text-align: right;">
+                        <span class="bold italic">
+                            All Rights Reserved
+                        </span>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+
+        <h1 class="classesDiv">[Subject] Class List</h1>
+
+        <table class="alignTable">
+            <thead>
+
+                <tr class="tableBorder">
+                    <th class="tableBorder">Room Nbr</th>
+                    <th>Class Name</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Room 1</td>
+                    <td>Class Name</td>
+                    <td>Instructor 1</td>
+                    <td>Time of class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 2</td>
+                    <td>Class 2 </td>
+                    <td>
+                        Instructor 2
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 3</td>
+                    <td>Class 3</td>
+                    <td>
+                        Instructor 3
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; Poly Edu</td>
+                    <!-- The cell below merges two rows -->
+                    <td rowspan="2" style="text-align: right;">
+                        <span class="bold italic">
+                            All Rights Reserved
+                        </span>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
+
+
+        <h1 class="classesDiv">[Subject] Class List</h1>
+
+        <table class="alignTable">
+            <thead>
+
+                <tr class="tableBorder">
+                    <th class="tableBorder">Room Nbr</th>
+                    <th>Class Name</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Room 1</td>
+                    <td>Class Name</td>
+                    <td>Instructor 1</td>
+                    <td>Time of class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 2</td>
+                    <td>Class 2 </td>
+                    <td>
+                        Instructor 2
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+                <tr>
+                    <td>Room 3</td>
+                    <td>Class 3</td>
+                    <td>
+                        Instructor 3
+                    </td>
+                    <td>Time of Class</td>
+                </tr>
+
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Copyright &copy; Poly Edu</td>
+                    <!-- The cell below merges two rows -->
+                    <td rowspan="2" style="text-align: right;">
+                        <span class="bold italic">
+                            All Rights Reserved
+                        </span>
+                    </td>
+                    <td></td>
+                </tr>
+
+            </tfoot>
+        </table>
 
 
 
 
-    </head>
 
-    <body>
-        <p>
-            <a class="facebook" href="https://www.facebook.com/" target="_blank">Facebook</a>
-            <a class="twitter" href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
+    </main>
 
-            <a class="instagram" href="https://www.instagram.com/" target="_blank">Instagram</a>
+    <footer class="footerPoly">
+        <div>&copy; Copyright 2022 Poly Edu</div>
+        <p class="socialsFooter">
+            <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="twitter" href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+
+            <a class="instagram" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
         </p>
 
-
-
-        <header>
-            <div>
-
-                <h1 class="page1">Project Peacock</h1>
-                <h2 class="page2"> Company Slogan Here</h2>
-
-            </div>
-
-            <nav>
-
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-
-                    <li><a href="Classes.html">Classes</a></li>
-
-                    <li><a href="Team.html">Team</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
-                </ul>
-
-
-            </nav>
-
-        </header>
-
-
-
-        <main>
-
-            <section class="firstallign">
-                <div>
-                    Image
-                </div>
-                <h1>About Us</h1>
-
-                <div class=aboutUs>
-
-                    Lorem ipsum dolor sit amet, ei iisque tritani fuisset per, his in alia aeque nemore, in augue debet instructior has. Ei inani aeterno efficiantur vel, numquam aliquam moderatius in mel. Iudico partem no qui, ius illum consetetur reprimique eu. Pri ne malis epicurei, eos meis causae ullamcorper eu. Eu omittam intellegat efficiendi pri, putent adipisci ad mel, usu ne debet tibique percipit. Eam cu ignota timeam, pri aperiri eleifend eu.
-
-                </div>
-            </section>
-            <h1 class="chooseUs"> Why Choose Us</h1>
-            <article>
-                <section>
-
-
-                    <aside>
-                        <h1>Lorem Impsum Dolor</h1>
-                        <div class="box">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                        </div>
-                    </aside>
-                    <aside>
-                        <h1>Lorem Ipsum Dolor</h1>
-                        <div class="box">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                        </div>
-                    </aside>
-                </section>
-            </article>
-        </main>
-
-        <footer>
-            <p>
-                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-                <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
-                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-                &copy; Copyright 2022 Project Peacock
-            </p>
-            <div class="clear"></div>
-        </footer>
-
-
-    </body>
-</html>
-
-
-<footer>
-    <p>
-        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-        <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
-        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
-        &copy; Copyright 2022 Project Peacock
-    </p>
-    <div class="clear"></div>
-</footer>
+    </footer>
 
 
 </body>

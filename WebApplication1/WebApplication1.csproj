@@ -73,8 +73,14 @@
     <Content Include="CSS\Styling-Contact.css" />
     <Content Include="CSS\Styling-Home.css" />
     <Content Include="CSS\Styling-Team.css" />
+    <Content Include="images\android-icon-36x36.png" />
     <Content Include="images\ash-edmonds-0aWZdK8nK2I-unsplash.jpg" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\ms-icon-150x150.png" />
+    <Content Include="images\photo-1474649107449-ea4f014b7e9f.jfif" />
     <Content Include="images\photo-1523050854058-8df90110c9f1.jfif" />
+    <Content Include="images\photo-1561489422-45de3d015e3e.jfif" />
+    <Content Include="images\shubham-dhage-5LQ_h5cXB6U-unsplash.jpg" />
     <Content Include="Team.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
